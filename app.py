@@ -11,7 +11,7 @@ from gensim.models._fasttext_bin import load
 
 import os, io, time, re
 
-MODEL_FILE_PATH = 'binary-classification.bin'
+MODEL_FILE_PATH = 'model-auto001.bin'
 
 def text_wakati(text):
     # リクエストで送られてきたテキストデータを分かち書きする前処理
